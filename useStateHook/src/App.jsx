@@ -2,6 +2,7 @@ import { useState } from "react";
 import Counter from "./Counter.jsx";
 import Person from "./Person.jsx";
 import ConditionalCounter from "./conditionalCounter.jsx";
+import CounterAzzam from "./CounterAzzam.jsx";
 
 function App() {
   const [name, setName] = useState("Yaseen");
@@ -22,7 +23,8 @@ function App() {
   return (
     // <Counter />
     // <Person />
-    <ConditionalCounter /> 
+    // <ConditionalCounter /> 
+    <CounterAzzam/>
 
   );
 }
