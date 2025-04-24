@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+    display: flex;
+    background-color: beige;
+}
+ul > li > a{
+    text-decoration: none;
+}
+li { 
+    padding-right: 30px;
+}
+.active-link{
+    border: 2px solid red;
+}
